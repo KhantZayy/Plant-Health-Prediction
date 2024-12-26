@@ -92,19 +92,19 @@ if app_mode == 'Home':
 if app_mode == 'About':
     st.title(':red[About our app]')
     st.subheader('Soil Properties 🌍:')
-    st.image('images/Generated Image.jpeg', use_column_width= False, channels= 'RGB', width= 200)
+    st.image('images/Generated Image.jpeg', channels= 'RGB', width= 200)
     st.text("""Soil_Moisture (%) 💧: Indicates water content in the soil.
 Soil_Temperature (°C) 🌡️: Represents temperature near the plant roots.
 Soil_pH ⚗️: Reflects the acidity or alkalinity of the soil.
 Nitrogen_Level (mg/kg) 🟢, Phosphorus_Level (mg/kg) 🟠, and Potassium_Level (mg/kg) 🟡: Measure nutrient levels critical for plant growth and health.""")
     st.subheader('Environmental Conditions 🌤️:')
-    st.image('images/Generated Image (1).jpeg', use_column_width= False, width=200)
+    st.image('images/Generated Image (1).jpeg', width=200)
     st.text("""Ambient_Temperature (°C) 🌡️: Temperature surrounding the plant.
 Humidity (%) 💦: Air humidity levels.
 Light_Intensity (Lux) ☀️: Exposure to light, crucial for photosynthesis.
 """)
     st.subheader('Plant Health Indicators 🌿:')
-    st.image('images/Generated Image (2).jpeg', width=200, use_column_width= False)
+    st.image('images/Generated Image (2).jpeg', width=200)
     st.text("""Chlorophyll_Content (mg/m²) 🟩: Reflects photosynthetic activity.
 Electrochemical_Signal (mV) ⚡: Represents stress signals due to environmental or internal factors.
 """)
