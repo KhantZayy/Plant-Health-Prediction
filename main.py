@@ -14,7 +14,7 @@ app_mode = st.sidebar.selectbox('You can choose here.',['Home', 'About'],
 
 if app_mode == 'Home':
     st.title(':green[Plant Health Prediction]')
-    st.image('images/International-Day-Of-Plant-Health-PB-8130368_1920.jpg', width= 512)
+    st.image('images/International-Day-Of-Plant-Health-PB-8130368_1920.jpg')
     Soil_Moisture = st.slider('Soil Moisture', 0.0 ,50.0, 0.0, step=0.01)
     Ambient_Temperature = st.slider('Ambient Temperature', 0.0, 50.0, 0.0)
     Soil_Temperature = st.slider('Soil Temperature', 0.0, 50.0, 0.0)
